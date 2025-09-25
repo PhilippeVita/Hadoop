@@ -8,25 +8,22 @@ Ce projet utilise Hadoop Streaming pour analyser les données Spotify via MapRed
 - visualisés à l'aide de Matplotlib 
 - stockés dans HBase.
 
-* Fichiers inclus
+### Fichiers inclus
 - `mapper.py` : Job MapReduce Mapper
 - `reducer.py` : Job MapReduce Reducer
 - `Spotify_Most_Streamed_Songs.csv` : Dataset source
 - `Rapport-TP-Hadoop.docx` : Rapport complet
 
-* Évaluateur du TP
-- Centre de formation : DIGINAMIC
-- Promotion : 2025-D04-07 / Section Data Engineer
-- Formatrice : Madame Amina MARIE
-- GitHub Repository : https://github.com/AminaMarie
-
-
+### Évaluateur du TP
+ - Centre de formation : DIGINAMIC
+ - Promotion : 2025-D04-07 / Section Data Engineer
+ - Formatrice : Madame Amina MARIE
+ - GitHub Repository : https://github.com/AminaMarie
 
 ## Configuration de Git Repository
 * Fichier "./gitignore"
 
-
-## Liste d'exlusions de fichiers et de dossiers
+## Liste de fichiers et de dossiers exclus
 * Exclure le fichier .gitignore lui-même
 .gitignore
 
@@ -38,18 +35,18 @@ streaming/
 documents/
 
 * Exclure les fichiers temporaires ou sensibles
-*.log
-*.tmp
-*.bak
-*.swp
+ *.log
+ *.tmp
+ *.bak
+ *.swp
 
 * Exclure les fichiers système
-.DS_Store
-Thumbs.db
+ .DS_Store
+ Thumbs.db
 
 * Exclure les fichiers Python compilés
-__pycache__/
-*.pyc
+ __pycache__/
+ *.pyc
 
 
 * Commit
@@ -72,5 +69,5 @@ git commit -m "Ajout des livrables du TP Hadoop : " -m " - Scripts du Job MapRed
     - GitHub : git push -u origin main
 
 4. Inviter les collaborateurs du TP : 
-    - Examinateur : AminaMarie (Amina MARIE), Robin HOTTON
-    - Co-équipié : Nour1990 (Nour ZERABIB)
+    - AminaMarie (Amina MARIE), Robin HOTTON
+    - Nour1990 (Nour ZERABIB)

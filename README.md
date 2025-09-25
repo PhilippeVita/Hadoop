@@ -1,8 +1,7 @@
 # TP Hadoop
  
-# ----------------------------------------------------------------
-# Objectif
-# ----------------------------------------------------------------
+## Objectif
+
 Sujet : Analyse des tendances musicales de Spotify
 
 Ce projet utilise Hadoop Streaming pour analyser les données Spotify via MapReduce. Les résultats sont ensuite 
@@ -22,14 +21,12 @@ Ce projet utilise Hadoop Streaming pour analyser les données Spotify via MapRed
 - GitHub Repository : https://github.com/AminaMarie
 
 
-# ----------------------------------------------------------------
-# Configuration de Git Repository
-# ----------------------------------------------------------------
+
+## Configuration de Git Repository
 * Fichier "./gitignore"
 
-# ----------------------------------------------------------------
-# Liste d'exlusions de fichiers et de dossiers
-# ----------------------------------------------------------------
+
+## Liste d'exlusions de fichiers et de dossiers
 * Exclure le fichier .gitignore lui-même
 .gitignore
 
@@ -60,9 +57,8 @@ git add .
 git commit -m "Ajout des livrables du TP Hadoop : " -m " - Scripts du Job MapReduce (mapper.py & reduce.py)" -m " - Dataset" -m " - Rapport Docx"
 
 
-# ----------------------------------------------------------------
-# Configuration de GitHub Repository
-# ----------------------------------------------------------------
+## Configuration de GitHub Repository
+
 1. Création du GitHub Repository : https://github.com/PhilippeVita/Hadoop
     Ne cocher aucune option : 
     - README
@@ -76,5 +72,5 @@ git commit -m "Ajout des livrables du TP Hadoop : " -m " - Scripts du Job MapRed
     - GitHub : git push -u origin main
 
 4. Inviter les collaborateurs du TP : 
-    - Formateur : AminaMarie (Amina MARIE)
+    - Examinateur : AminaMarie (Amina MARIE), Robin HOTTON
     - Co-équipié : Nour1990 (Nour ZERABIB)

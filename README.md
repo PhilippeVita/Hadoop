@@ -16,7 +16,7 @@ Ce projet utilise Hadoop Streaming pour analyser les données Spotify via MapRed
 
 ### Évaluateur du TP
  - Centre de formation : DIGINAMIC
- - Promotion : 2025-D04-07 / Section Data Engineer
+ - Promotion : 2025-D04-07 / Data Engineer
  - Formatrice : Madame Amina MARIE
  - GitHub Repository : https://github.com/AminaMarie
 
@@ -69,5 +69,5 @@ git commit -m "Ajout des livrables du TP Hadoop : " -m " - Scripts du Job MapRed
     - GitHub : git push -u origin main
 
 4. Inviter les collaborateurs du TP : 
-    - AminaMarie (Amina MARIE), Robin HOTTON
+    - AminaMarie (Amina MARIE)
     - Nour1990 (Nour ZERABIB)
